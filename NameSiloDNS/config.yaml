@@ -1,6 +1,6 @@
 name: Namesilo DNS IP
 description: Update IP public router to domain Namesilo
-version: "1.3.8"
+version: "1.3.9"
 slug: namesilo_dns_auto
 url: https://github.com/IzeroCs/Hassio-Addons/NameSiloDNS
 codenotary: izero.cs@gmail.com
