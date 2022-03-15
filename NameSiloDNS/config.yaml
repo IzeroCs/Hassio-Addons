@@ -1,0 +1,30 @@
+name: Namesilo DNS IP
+description: Update IP public router to domain Namesilo
+version: "1.3.8"
+slug: namesilo_dns_auto
+url: https://github.com/IzeroCs/Hassio_Addons/NameSiloDNS
+codenotary: izero.cs@gmail.com
+stdin: true
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+schema:
+  log: bool
+  api: str
+  domain: str
+  ttl: int
+  records:
+    - str
+  interval_update: int
+options:
+  log: true
+  api: ""
+  domain: "example.com"
+  ttl: 3603
+  records:
+    - "@"
+    - "www"
+  interval_update: 30
