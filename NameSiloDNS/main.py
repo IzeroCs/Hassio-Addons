@@ -172,6 +172,6 @@ while True:
             index += 1
         time.sleep(interval_update)
     elif public_ip == None:
-        time.sleep(interval_update * 2)
+        time.sleep(interval_update / 2)
     else:
         time.sleep(interval_update * 3)
