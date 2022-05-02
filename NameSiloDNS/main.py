@@ -86,7 +86,7 @@ while True:
         domain_info = None
         domain_info_log = False
         debug(f"Domain {domain} not exists!")
-        time.sleep(interval_update * 2)
+        time.sleep(5)
 
     if domain_info:
         try:
@@ -172,6 +172,6 @@ while True:
             index += 1
         time.sleep(interval_update)
     elif public_ip == None:
-        time.sleep(interval_update / 2)
+        time.sleep(5)
     else:
-        time.sleep(interval_update * 3)
+        time.sleep(5)
